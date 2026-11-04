@@ -1,5 +1,5 @@
 name: Box agent
-version: "0.2.1"
+version: "0.2.2"
 image: ghcr.io/mihajlo-stojkovic/ha-provision-box-agent
 slug: fleet_box_agent
 description: Connects this box to the fleet platform and keeps an outbound command socket.
