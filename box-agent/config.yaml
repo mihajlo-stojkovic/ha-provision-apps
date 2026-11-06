@@ -1,5 +1,5 @@
 name: Box agent
-version: "0.3.0"
+version: "0.4.0"
 image: ghcr.io/mihajlo-stojkovic/ha-provision-box-agent
 slug: fleet_box_agent
 description: Connects this box to the fleet platform and keeps an outbound command socket.
@@ -37,8 +37,6 @@ options:
   sftp_port: 23
   sftp_username: ""
   sftp_remote_dir: ""
-  acme_directory_url: "https://acme-v02.api.letsencrypt.org/directory"
-  acme_terms_of_service_agreed: false
   z2m_base_topic: zigbee2mqtt
 schema:
   box_id: str
@@ -55,8 +53,5 @@ schema:
   sftp_port: port?
   sftp_username: str?
   sftp_remote_dir: str?
-  acme_directory_url: url?
-  acme_email: email?
-  acme_terms_of_service_agreed: bool?
   z2m_base_topic: str?
   extra_ca_certificate: str?
