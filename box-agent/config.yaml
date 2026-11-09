@@ -1,5 +1,5 @@
 name: Box agent
-version: "0.4.1"
+version: "0.4.4"
 image: ghcr.io/mihajlo-stojkovic/ha-provision-box-agent
 slug: fleet_box_agent
 description: Connects this box to the fleet platform and keeps an outbound command socket.
@@ -33,10 +33,6 @@ options:
   backup_password: ""
   backup_include_all_addons: false
   backup_include_folders: []
-  sftp_host: ""
-  sftp_port: 23
-  sftp_username: ""
-  sftp_remote_dir: ""
   z2m_base_topic: zigbee2mqtt
 schema:
   box_id: str
@@ -49,9 +45,5 @@ schema:
   backup_include_all_addons: bool?
   backup_include_folders:
     - str
-  sftp_host: str?
-  sftp_port: port?
-  sftp_username: str?
-  sftp_remote_dir: str?
   z2m_base_topic: str?
   extra_ca_certificate: str?
