@@ -8,4 +8,4 @@ Add this URL under Settings, Apps, App store, Repositories:
 https://github.com/mihajlo-stojkovic/ha-provision-apps
 ```
 
-The app runs the image `ghcr.io/mihajlo-stojkovic/ha-provision-box-agent:0.4.4` (linux/amd64 and linux/arm64). The image is a public GHCR package, so Supervisor pulls it without a registry login.
+The app runs the image `ghcr.io/mihajlo-stojkovic/ha-provision-box-agent:0.4.5` (linux/amd64 and linux/arm64). The image is a public GHCR package, so Supervisor pulls it without a registry login.
